@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("image.png") center no-repeat;
+    background-size: cover;
+}
+
+.contentMain{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    backdrop-filter: blur(4px);
+}
+
+button{
+    padding: 1rem 5rem;
+    cursor: pointer;
+}
